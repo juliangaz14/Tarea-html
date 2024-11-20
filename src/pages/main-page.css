@@ -1,0 +1,102 @@
+/*Desplazamiento gradual entre secciones*/
+html {
+  scroll-behavior: smooth;
+}
+/*Fondo de la page principal*/
+body {
+  background: linear-gradient(150deg, #aed6f1, #f5cba7);
+}
+/*Alineacion y borde del titulo principal*/
+h1 {
+  text-align: center;
+  border: solid;
+  background: salmon;
+}
+header h2 {
+  text-align: center;
+  margin: 10px;
+}
+.menu-acceso {
+  display: flex;
+  gap: 10px;
+}
+.menu-acceso a {
+  text-decoration: none;
+  background-color: #cce7ff;
+  color: black;
+  padding: 5px;
+  border: 1px solid;
+  border-radius: 5px;
+}
+/*Posicion entre secciones y fondo del nav*/
+.menu-principal {
+  text-decoration: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 25px;
+  gap: 25px;
+  font-size: larger;
+  background-color: #2c3e50;
+}
+/*Saqué el underline y le cambié el color al text*/
+.menu-principal a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+/*Efecto cuando pasas por encima de las secciones del nav*/
+nav a:hover {
+  background-color: salmon;
+}
+/*Ubicacion de la tabla o texto a la derecha de la img*/
+.image-container {
+  float: left;
+  margin: 10px;
+}
+/*Separacion de las tablas en forma vertical*/
+.table-container {
+  display: flex;
+}
+/*Le puse margen al contenido para que ocupe el alto de la img*/
+th,
+td {
+  padding: 18px;
+}
+/*No pude alinear las 3 tablas*/
+th {
+  position: relative;
+  color: rgba(255, 0, 0, 0.575);
+}
+section h2 {
+  background-color: #2c3e50;
+  padding: 25px;
+}
+/*Centré la section*/
+#El-Eternauta {
+  text-align: center;
+  margin: 15px;
+}
+/*Tuve que alinear los articulos de la section "el eternauta" hacia la izq porque me centró todos los art*/
+.article {
+  text-align: left;
+}
+/*Fondo del footer*/
+footer {
+  background-color: #b2babb;
+}
+/*Posicion del boton "inicio"*/
+button {
+  float: right;
+  margin-right: 15px;
+  margin: 10px;
+}
+/*Posicion de los iconos de las redes*/
+.social-icons {
+  float: right;
+  margin-right: 25px;
+  margin: 10px;
+}
+/*Posicion de las listas en forma horizontal*/
+li {
+  display: inline;
+  padding: 25px;
+}
